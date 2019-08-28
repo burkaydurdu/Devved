@@ -1,0 +1,14 @@
+.header {
+	width: 100%;
+	height: 100px;
+	padding: 0;
+	background: #396AF6;
+}
+
+.header h1 {
+	margin: 0;
+	padding: 15px 15px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #FFF;
+}

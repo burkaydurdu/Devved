@@ -1,0 +1,17 @@
+.content {
+  background-color: #EEF1F6;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentlist {
+  flex-wrap: wrap;
+  width: 40%
+}
+
+.contentsetting {
+  flex-wrap: wrap;
+}

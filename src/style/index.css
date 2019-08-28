@@ -1,0 +1,19 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	font-weight: 400;
+	font-family: 'Rubik', sans-serif;
+	background-color: #EEF1F6;
+}
+
+#app {
+	background-color: #EEF1F6;
+	height: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,141 @@
+.cardBox {
+  background-color: #FFF;
+  color: #000;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.cardBoxBody {
+  display: flex;
+}
+
+.cardBoxBodyContent  {
+  margin-left: 10px;
+}
+
+.cardBoxBodyContent a {
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+  text-decoration: none;
+}
+
+.cardBoxBodyContent span {
+  margin: 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 10px;
+}
+.cardBoxProfile {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cardBoxProfileContent p {
+  font-size: 12px;
+  font-weight: 900;
+  color: #000;
+  padding-left: 5px;
+}
+
+.cardBoxProfileAvatar img {
+  border-radius: 30px;
+}
+
+.cardBoxProfileLink {
+  display: flex;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.cardBoxProfileLink a {
+  margin-right: 5px;
+}
+
+.cardBoxFooter {
+  display: flex;
+  justify-content: space-between
+}
+
+.cardBoxFooterTag {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cardBoxFooterRight {
+  display: flex;
+  justify-content: right;
+}
+
+.cardBoxFooterRight span {
+  font-size: 8px;
+  line-height: 9px;
+}
+
+.cardBoxFooterRightComment {
+  background-image: url("/assets/icons/comment.png");
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  color: #FFF;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.cardBoxFooterRightLike {
+  background-image: url("/assets/icons/like.png");
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  color: #FFF;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.cardBoxFooterRightPublished {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #3366FF;
+  color: #FFF;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.cardBoxTagBox {
+  font-size: 14px;  line-height: 12px;
+  text-align: center;
+  color: #FFF;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px 0 5px;
+  margin: 3px;
+}
+
+.devTo {
+  padding: 10px;
+  background-color: #000;
+  color: #FFF;
+  font-size: 32px;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
