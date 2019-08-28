@@ -3,7 +3,7 @@ import style from './style';
 
 export default class Card extends Component {
 	state = {
-		color: ['#FF3A3D', '#FFCC00', '#5993FF', '#43D140', '#3366FF']
+		color: ['#FF3A3D', '#FFCC00', '#5993FF', '#43D140', '#3366FF', '#00D2FC']
 	};
 
 	dateFormatter(date) {
@@ -62,9 +62,11 @@ export default class Card extends Component {
 				</div>
 				<div class={style.cardBoxFooter}>
 					<div class={style.cardBoxFooterTag}>
-						{data.tag_list.map(item => (
+						{data.tag_list.map((item, index) => (
 							<p class={style.cardBoxTagBox}
-								 style={"background-color:" + color[Math.floor(Math.random() * (5 - 0))]}> {item} </p>	
+								 style={"background-color:" + color[index % 6]}> {item} 
+							</p>
+							// Math.floor(Math.random() * (5 - 0))	
 						))}
 					</div>
 					<div class={style.cardBoxFooterRight}>
