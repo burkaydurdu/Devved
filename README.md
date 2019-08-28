@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0ae770b2-e04c-4f3c-9d2f-1d59e023e9a8/deploy-status)](https://app.netlify.com/sites/elegant-hopper-c14942/deploys)
+
 # DEVVED
 
 ## CLI Commands
