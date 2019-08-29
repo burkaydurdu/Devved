@@ -9,9 +9,15 @@
 
 .contentlist {
   flex-wrap: wrap;
-  width: 40%
+  width: 45%
 }
 
 .contentsetting {
   flex-wrap: wrap;
+}
+
+@media screen and  (max-width: 600px) {
+  .contentlist {
+    width: 100%;
+  }
 }

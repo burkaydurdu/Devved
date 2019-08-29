@@ -19,7 +19,7 @@
   margin: 0;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 16px;
   color: #000;
   text-decoration: none;
@@ -66,11 +66,12 @@
 .cardBoxFooterTag {
   display: flex;
   flex-flow: row wrap;
+  align-items: flex-start
 }
 
 .cardBoxFooterRight {
   display: flex;
-  justify-content: right;
+  align-items: center;
 }
 
 .cardBoxFooterRight span {
@@ -80,32 +81,32 @@
 
 .cardBoxFooterRightComment {
   background-image: url("/assets/icons/comment.png");
-  background-size: cover;
+  background-repeat: round;
   width: 40px;
   height: 40px;
   display: flex;
   color: #FFF;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 14px;
   margin-right: 5px;
 }
 
 .cardBoxFooterRightLike {
   background-image: url("/assets/icons/like.png");
-  background-size: cover;
+  background-repeat: round;
   width: 40px;
   height: 40px;
   display: flex;
   color: #FFF;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 14px;
   margin-right: 5px;
 }
 
 .cardBoxFooterRightPublished {
-  font-size: 18px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,18 +114,18 @@
   background-color: #3366FF;
   color: #FFF;
   margin-right: 5px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .cardBoxTagBox {
-  font-size: 14px;  line-height: 12px;
+  font-size: 14px;  
   text-align: center;
   color: #FFF;
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 5px 0 5px;
+  padding: 10px;
   margin: 3px;
 }
 

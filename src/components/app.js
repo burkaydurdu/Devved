@@ -14,8 +14,8 @@ export default class App extends Component {
 		this.fetchData()
 	}
 
-	fetchData(page = 1, tag = "discuss", username, top = 1) {
-		fetch(`${devToUrl}?page=${page}&tag=${tag}&top=${top}`, {
+	fetchData(page = 1, top = 1) {
+		fetch(`${devToUrl}?page=${page}&top=${top}`, {
 			method: 'GET'
 		})
 		.then((response) => response.json())
