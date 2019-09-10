@@ -140,3 +140,17 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and  (max-width: 600px) {
+  .cardBoxBody {
+    flex-flow: row wrap;
+  }
+  .cardBoxBodyImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .cardBoxBodyImage img {
+    width: 100%;
+  }
+}

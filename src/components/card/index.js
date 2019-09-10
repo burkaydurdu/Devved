@@ -22,7 +22,7 @@ export default class Card extends Component {
             {data.cover_image != null ? (
               <img src={data.cover_image} width="200" />
             ) : (
-              <div class={style.devTo}>Dev.to</div>
+              ""
             )}
           </div>
           <div class={style.cardBoxBodyContent}>

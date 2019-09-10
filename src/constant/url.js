@@ -1,1 +1,1 @@
-export const devToUrl = "https://dev.to/api/articles/"
+export const devToUrl = "https://dev.to/api/articles/";
