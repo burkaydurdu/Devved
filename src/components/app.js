@@ -43,6 +43,11 @@ class App extends Component {
             ))}
           </div>
         </div>
+        <div class={style.github}>
+          <a href="https://github.com/burkaydurdu/Devved" target="_blank">
+            <img src="/assets/icons/github.png" width="40" height="40" />
+          </a>
+        </div>
       </div>
     );
   }

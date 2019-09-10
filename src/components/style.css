@@ -16,8 +16,20 @@
   flex-wrap: wrap;
 }
 
+.github {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
 @media screen and  (max-width: 600px) {
   .contentlist {
     width: 100%;
+  }
+  .github {
+    position: relative;
+    text-align:  center;
+    top: none;
+    bottom:none;
   }
 }
